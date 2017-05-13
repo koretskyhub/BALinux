@@ -10,6 +10,6 @@ sudo cp /home/BALinux/000-default.conf /etc/apache2/sites-available/
 sudo cp /home/BALinux/ports.conf /etc/apache2/
 sudo cp /home/BALinux/default /etc/nginx/sites-available/
 sudo cp /home/BALinux/sysinfo.php /var/www/http/
-sudo rm /var/www/http/index.*
+sudo rm -rf /var/www/http/index.*
 service nginx reload
 service apache2 reload 
