@@ -6,11 +6,11 @@ function coloring($lavg)
 {
         $v = intval($lavg);
         if ($v > 2.0)
-                return "<div color='red'>$lavg </div>";
+                return "<div style='color:red;'>$lavg </div>";
         if ($v < 1.0)
-                return "<div color='green'>$lavg</div>";
+                return "<div style='color:green;'>$lavg</div>";
         if (($v > 1.0) and ($v < 2.0 ))
-                return "<div color='yellow'>$lavg</div>";
+                return "<div style='color:yellow;'>$lavg</div>";
 };
 ?>
 <!DOCTYPE html>
